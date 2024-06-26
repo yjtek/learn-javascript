@@ -6,3 +6,8 @@ let numbers = [1, 2, 3, 4, 5, 6, 7];
 for (const number of numbers) {
     console.log(number);
 }
+
+// This gives you INDEXES instead of values
+for (const number in numbers) {
+    console.log(number);
+}

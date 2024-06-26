@@ -53,13 +53,14 @@ let isClosedOnSunday = true;
 
 const isRestaurantOpen = !isClosedOnSunday;
 
-console.log(isReservaationOpen);
+console.log(isRestaurantOpen);
 
 // ??, nullish coalescing operator
 // So if a value is null or undefined, then we can supply a default value.
 
 let doesValueExist = null;
-const result = doesValueExist ?? false;
+const result = doesValueExist ?? false; // if doesValueExist is not null and not undefined, return doesValueExist, else return false
+console.log(result)
 
 // So the ?? operator is syntactic sugar for...
 const resultOfExpression = (a !== null && a !== undefined) ? a : false;
