@@ -1,8 +1,8 @@
 // refer to the documentation at mozilla.developer.org
 
 // We have string literals
-const name = 'Steven';
-console.log(typeof name); // 'string'
+const strname = 'Steven';
+console.log(typeof strname); // 'string'
 
 // can also make a string using the string object
 const anotherName = new String('Joe');

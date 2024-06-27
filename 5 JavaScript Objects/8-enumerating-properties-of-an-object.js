@@ -12,6 +12,7 @@ const dog = {
     eyeColor: 'blue'
 };
 
+// for...in... iterates over objects' keys
 for (const key in dog) 
     console.log(dog[key]);
 
@@ -21,6 +22,7 @@ for (const key in dog)
 // Such as: ['name', 'age', 'eyeColor']
 const keys = Object.keys(dog);
 
+// for...of... iterates over iterables
 for (const key of Object.keys(dog))
     console.log(key);
 

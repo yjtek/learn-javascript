@@ -11,6 +11,8 @@ const dog = {
     breed: 'Dachshund',
     age: 5,
     weightInPounds: 12,
+
+    // 2 ways to define functions, both equally valid
     eat: function() {
         console.log('Chomp!');
     },
@@ -18,3 +20,5 @@ const dog = {
         console.log('Woof!');
     }
 };
+
+dog.bark()

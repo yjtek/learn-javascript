@@ -11,13 +11,22 @@ const numbers = [5, 4, 3, 2, 1];
 // Add to the end with .push() 
 
 numbers.unshift(14);
+console.log(numbers)
+
 numbers.unshift(17, 19);
+console.log(numbers)
 
 // 1st arg is the index position to start from,
 // 2nd arg is the number of elements to delete
 // then can specify one or more elements to add from that index position specified from the 1st arg
 numbers.splice(1, 0, 18);
+console.log(numbers)
+
 numbers.splice(1, 0, 25, 24);
+console.log(numbers)
 
 numbers.push(7);
+console.log(numbers)
+
 numbers.push(10, 11, 12);
+console.log(numbers)

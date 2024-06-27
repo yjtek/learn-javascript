@@ -22,5 +22,5 @@ const employees = [
 
 const updatedEmployees = employees.map(employee => ({
     ...employee,
-    email: email.toLowerCase()
+    email: employee.email.toLowerCase()
 }));

@@ -30,3 +30,16 @@ const add = (num1, num2) => {
 }
 
 // const add = (num1, num2) => num1 + num2;
+
+const obj = {
+    value: 42,
+    regularFunction: function() {
+        console.log(this.value); // Outputs: 42 (this refers to obj)
+    },
+    arrowFunction: () => {
+        console.log(this.value); // Outputs: undefined (this refers to the surrounding scope, likely global or undefined in strict mode)
+    }
+};
+
+obj.regularFunction();
+obj.arrowFunction();
